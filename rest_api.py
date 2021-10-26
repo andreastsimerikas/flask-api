@@ -8,7 +8,7 @@ class Simple200(Resource):
     def get(self):
         return {}
 
-api.add_resource(Simple200, '/')
+api.add_resource(Simple200, '/health')
 
 if __name__ == '__main__':
    app.run(host="127.0.0.1", port=8080, debug=True) 
