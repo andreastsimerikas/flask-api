@@ -4,11 +4,11 @@ from flask_restful import Resource, Api
 app = Flask(__name__)
 api = Api(app)
 
-class HelloWorld(Resource):
+class Simple200(Resource):
     def get(self):
-        return {'hello': 'world'}
+        return {}
 
-api.add_resource(HelloWorld, '/')
+api.add_resource(Simple200, '/')
 
 if __name__ == '__main__':
    app.run(host="127.0.0.1", port=8080, debug=True) 
