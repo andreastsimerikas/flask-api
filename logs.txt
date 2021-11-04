@@ -1,0 +1,4 @@
+2021-10-29 22:38:29,719 DEBUG    Starting new HTTP connection (1): 127.0.0.1:8080
+2021-10-29 22:38:31,739 ERROR    HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /health (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002149387CC40>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2021-10-29 22:39:31,751 DEBUG    Starting new HTTP connection (1): 127.0.0.1:8080
+2021-10-29 22:39:33,763 ERROR    HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /health (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000214938A5640>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
